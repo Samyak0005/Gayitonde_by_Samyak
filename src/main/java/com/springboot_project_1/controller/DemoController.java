@@ -27,5 +27,17 @@ public class DemoController {
             int b = 24;
             return a + b;
         }
+        // loop
+    @RequestMapping("/checkit")
+        public String Loop1() {
+        int[] marks ={23,34,54,50};
+        for (int var: marks){
+            return "Element  "+var;
+        }
+        //for (int i = 0; i <= 10; i++) {
+          //  return "print num  " + i;
+        //}
+return "checkit";
+    }
     }
 
