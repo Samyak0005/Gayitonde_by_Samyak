@@ -2,11 +2,10 @@ package com.springboot_project_1.controller;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Path_Variable {
+public class Path_Variable_Controller {
     @RequestMapping("/agra/{name}")
     public String CityName(@PathVariable String name) {
 
