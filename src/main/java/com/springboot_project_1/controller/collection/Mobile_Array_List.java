@@ -1,4 +1,4 @@
-package com.springboot_project_1.collection;
+package com.springboot_project_1.controller.collection;
 
 import com.springboot_project_1.model.Mobile;
 import org.springframework.web.bind.annotation.RequestMapping;

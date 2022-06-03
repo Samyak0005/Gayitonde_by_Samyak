@@ -1,22 +1,25 @@
-package com.springboot_project_1;
+package com.springboot_project_1.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Calculated {
+public class Calculated_Controller {
     @RequestMapping("/add")
-    public float add(float a, float b){
-         a=1;
-         b=7;
-        return a+b;
-    }
-    @RequestMapping("/sub")
-    public float sub(){
-        float a = 23;
+    public float add() {
+        float a = 1;
+
         float b = 24;
-        return a-b;
+        return a + b;
     }
+        @RequestMapping("/sub")
+        public float sub(){
+            float a = 23;
+            float b=7;
+            return a-b;
+    }
+
+
     @RequestMapping("/mul")
     public float mul(){
         float a = 4;

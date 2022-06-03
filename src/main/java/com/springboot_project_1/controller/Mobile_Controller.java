@@ -1,6 +1,5 @@
 package com.springboot_project_1.controller;
 //CRUD
-import com.springboot_project_1.collection.Mobile_Array_List;
 import com.springboot_project_1.model.Mobile;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

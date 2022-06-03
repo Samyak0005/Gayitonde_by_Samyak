@@ -1,9 +1,23 @@
 package com.springboot_project_1.model;
 
+import javax.annotation.Generated;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity(name = "Mahindra_Emp")
 public class Employee {
+    @Id
+    @GeneratedValue
+    Long salary;
     private String name;
+    @Column (name = "Room_no")
     private String id;
     private String Dept;
+// default Constractors
+    public Employee() {
+    }
 
     //Constractous
 
